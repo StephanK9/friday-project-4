@@ -1,0 +1,37 @@
+body {
+  background-image:url(http://www.mb3d.co.uk/mb3d/Wood_Exterior_and_Planks_Seamless_and_Tileable_High_Res_Textures_files/Wood_Painted_03_UV_H_CM_1.jpg);
+}
+
+h1 {
+  text-decoration: underline;
+  text-align: center;
+  color: red;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  color: #0c2647;
+  text-align: center;
+}
+.jumbotron {
+  color: #edf3fc;
+  background-color: #0c2647;
+  font-family: 'Oswald', sans-serif;
+}
+.well {
+  margin-top: 50px;
+  color: #0c2647;
+}
+p {
+  text-align: center;
+  color: white;
+  background-color: lightgray;
+}
+
+.btn {
+  margin: 60px;
+}
+
+.form-group {
+  margin-top: 35px;
+}
