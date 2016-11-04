@@ -7,6 +7,7 @@ h1 {
   text-align: center;
   color: red;
   font-family: 'Oswald', sans-serif;
+  text-shadow: 3px 3px 3px #bbb;
 }
 
 h2 {
