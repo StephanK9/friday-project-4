@@ -43,6 +43,12 @@ $(document).ready(function() {
     newPizza.addToPrice();
 
     console.log(newPizza);
+    $("#choseSize").append(newPizza.pSize);
+    $("#choseToppings").append(newPizza.toppings);
+    $("#chosePrice").append(newPizza.price);
+
+    $("#formInput").hide();
+    $("#orderConfirmation").show();
 
 
 

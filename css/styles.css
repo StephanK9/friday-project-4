@@ -36,3 +36,6 @@ p {
 .form-group {
   margin-top: 35px;
 }
+#orderConfirmation {
+  display: none;
+}
