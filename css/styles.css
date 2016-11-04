@@ -45,5 +45,7 @@ p {
 }
 #orderConfirmation {
   display: none;
+  float: left;
+  text-align: left;
 
 }
