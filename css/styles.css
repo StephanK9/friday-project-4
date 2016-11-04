@@ -21,7 +21,8 @@ h2 {
 }
 .well {
   margin-top: 50px;
-  color: #0c2647;
+  color: white;
+  background-color: #5d6b82;
 }
 p {
   text-align: center;
@@ -30,7 +31,8 @@ p {
 }
 
 .btn {
-  margin: 60px;
+  margin: 120px;
+  float: left;
 }
 
 .form-group {
@@ -38,4 +40,5 @@ p {
 }
 #orderConfirmation {
   display: none;
+
 }

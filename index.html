@@ -49,32 +49,39 @@
             </div>
           </div>
           <div class="col-md-3">
-            <div class="form-group">
-              <label>Select Pizza Size</label>
-              <select class="form-control" id="pSize">
-                <option id="small">Small</option>
-                <option id="medium">Medium</option>
-                <option id="large">Large</option>
-              </select>
+            <div class="well">
+              <div class="form-group">
+                <label>Select Pizza Size</label>
+                <select class="form-control" id="pSize">
+                  <option id="small">Small</option>
+                  <option id="medium">Medium</option>
+                  <option id="large">Large</option>
+                </select>
+              </div>
             </div>
           </div>
           <div class="col-md-3">
-            <div class="form-group">
-              <label>Select Pizza Toppings</label>
-              <select class="form-control" id="toppings">
-                <option id="beef">Beef</option>
-                <option id="pep">Pepperoni</option>
-                <option id="veggie">Vegetarian</option>
-              </select>
+            <div class="well">
+              <div class="form-group">
+                <label>Select Pizza Toppings</label>
+                <select class="form-control" id="toppings">
+                  <option id="beef">Beef</option>
+                  <option id="pep">Pepperoni</option>
+                  <option id="veggie">Vegetarian</option>
+                </select>
+              </div>
             </div>
           </div>
-          <button type="submit" class="btn btn-primary">Place your order</button>
+          <button type="submit" class="btn btn-primary btn-lg">Place your order</button>
         </form>
         <div class="col-md-5" id="orderConfirmation">
-          <h2><span id="choseSize"></span></h2>
-          <h2><span id="choseToppings"></span></h2>
-          <h2><span id="chosePrice"></span></h2>
-          <input type="button" value="Back" class="btn btn-primary"onClick="window.location.reload()">
+          <div class="well">
+            <h3>Thank you for ordering from Beachfront Pizza! Here is your order confirmation:</h3>
+            <ul id="list">
+              <li></li>
+            </ul>
+            <input type="button" value="Back" class="btn btn-primary"onClick="window.location.reload()">
+          </div>
         </div>
       </div>
     </div>

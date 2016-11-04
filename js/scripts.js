@@ -43,9 +43,9 @@ $(document).ready(function() {
     newPizza.addToPrice();
 
     console.log(newPizza);
-    $("#choseSize").append(newPizza.pSize);
-    $("#choseToppings").append(newPizza.toppings);
-    $("#chosePrice").append(newPizza.price);
+    $("#list").append("<li>" + newPizza.pSize + "</li>");
+    $("#list").append("<li>" + newPizza.toppings + "</li>");
+    $("#list").append("<li>" + "$" + newPizza.price + "</li>");
 
     $("#formInput").hide();
     $("#orderConfirmation").show();
